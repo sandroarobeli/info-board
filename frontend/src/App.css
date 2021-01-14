@@ -1,0 +1,18 @@
+/* KEEP AN EYE ON THESE CLASSES. DELETE IF CAUSING PROBLEMS W/BOOTSTRAP */
+
+.container {
+  /* text-align: center; */
+}
+
+.App-logo {
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  height: 10vmin;
+  pointer-events: none;
+}
+
+
+
+
+

@@ -1,11 +1,11 @@
 {
-  "name": "info-board",
+  "name": "backend",
   "version": "1.0.0",
   "description": "a full MERN stack application allowing posting, updating and deleting various announsments by different users",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "concurrently \"cd backend && npm start\" \"cd frontend && npm run build\" ",
-    "dev": "concurrently \"cd backend && npm run dev\" \"cd frontend && npm start\" "
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "keywords": [
     "React",
@@ -16,8 +16,14 @@
   ],
   "author": "Alex Arobelidze",
   "license": "ISC",
-  "devDependencies": {
-    "concurrently": "^5.3.0"
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ibm-watson": "^6.0.2",
+    "mongoose": "^5.11.9"
   },
-  "dependencies": {}
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
 }
